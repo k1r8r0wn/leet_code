@@ -1,13 +1,23 @@
 AllCops:
-  TargetRubyVersion: 3.2.1
+  TargetRubyVersion: 3.2.2
   NewCops: disable
   SuggestExtensions: false
+
+Metrics/AbcSize:
+  Max: 20
+Metrics/MethodLength:
+  Max: 20
+Metrics/CyclomaticComplexity:
+  Max: 10
 
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/Documentation:
   Enabled: false
+
+
 Naming/MethodParameterName:
   Enabled: false
+
 Lint/Debugger:
   Enabled: false
